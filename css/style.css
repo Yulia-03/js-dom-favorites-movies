@@ -1,1 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Overskrift */
+h1 {
+  margin-bottom: 10px; 
+  text-align: center;
+}
+
+/* CONTAINER (FLEXBOX) */
+#movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* FILM KORT */
+article {
+  width: 200px;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+article:hover {
+  transform: scale(1.03);
+  transition: 0.2s ease;
+}
+
+/* LISTE */
+ul {
+  list-style: none;
+  margin: 10px 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* BILLEDE */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* FIGURE */
+figure {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* FIGCAPTION */
+figcaption {
+  margin-top: 5px;
+  font-size: 14px;
+}
 
